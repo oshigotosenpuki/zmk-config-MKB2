@@ -35,9 +35,7 @@
                                        &kp A                                                                             &kp B
             >;
 
-            sensor-bindings =
-                <&inc_dec_kp PAGE_DOWN PAGE_UP>,
-                <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp DOWN UP>, <&inc_dec_kp PG_UP PG_DN>;
         };
 
         function_layer {
