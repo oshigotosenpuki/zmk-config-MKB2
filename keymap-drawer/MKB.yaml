@@ -1,64 +1,7 @@
 layout: {zmk_keyboard: MKB}
 layers:
-  Def:
-  - ESCAPE
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - BKSP
-  - TAB
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - SEMI
-  - {t: SQT, h: Mouse}
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - COMMA
-  - DOT
-  - UP
-  - FSLH
-  - LEFT CONTROL
-  - LGUI
-  - LALT
-  - INT MUHENKAN
-  - {t: SPACE, h: Fnc}
-  - {t: SPACE, h: Fnc}
-  - {t: SPACE, h: Num}
-  - LEFT
-  - DOWN
-  - RIGHT
-  - LEFT
-  - UP
-  - SPACE
-  - DOWN
-  - RIGHT
-  - HOME
-  - PG UP
-  - ENTER
-  - PG DN
-  - END
-  - A
-  - B
+  Def: [ESCAPE, Q, W, E, R, T, UNDERSCORE, DOT, COMMA, M, N, B, TAB, A, S, D, F, G, ENTER, AT SIGN, L, K, J, H, LSHFT, Z, X, C, V, B, BACKSPACE, P, O, I, U, Y, LEFT
+      CONTROL, LGUI, LALT, INT MUHENKAN, SPACE, '&mkp MB1', '&mkp MB2', MINUS, QUESTION, '!', LEFT, UP, SPACE, DOWN, RIGHT, HOME, PG UP, ENTER, PG DN, END, A, B]
   Fnc:
   - GRAVE
   - PG UP
@@ -100,7 +43,7 @@ layers:
   - {t: ▽, type: trans}
   - LALT
   - ENTER
-  - {t: ENTER, type: held}
+  - ENTER
   - ENTER
   - ENTER
   - {t: ▽, type: trans}
@@ -161,7 +104,7 @@ layers:
   - ENTER
   - ENTER
   - ENTER
-  - {t: ENTER, type: held}
+  - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -201,7 +144,7 @@ layers:
   - '&mkp MB3'
   - '&mkp MB2'
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
