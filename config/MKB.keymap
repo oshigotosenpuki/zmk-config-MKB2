@@ -27,16 +27,16 @@
         default_layer {
             label = "Def";
             bindings = <
-&kp ESCAPE        &kp Q     &kp W      &kp E     &kp R             &kp T          &kp UNDERSCORE  &kp DOT      &kp COMMA  &kp M      &kp N         &kp B
-&kp TAB           &kp A     &kp S      &kp D     &kp F             &kp G          &kp ENTER       &kp AT_SIGN  &kp L      &kp K      &kp J         &kp H
-&kp LSHFT         &kp Z     &kp X      &kp C     &kp V             &kp B          &kp BACKSPACE   &kp P        &kp O      &kp I      &kp U         &kp Y
-&kp LEFT_CONTROL  &kp LGUI  &kp LALT             &kp INT_MUHENKAN  &kp SPACE      &mkp MB1        &mkp MB2                &kp MINUS  &kp QUESTION  &kp EXCLAMATION
-&kp LEFT          &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                                        &kp HOME     &kp PG_UP  &kp ENTER  &kp PG_DN     &kp END
-                                       &kp A                                                                   &kp B
+&kp ESCAPE        &kp Q     &kp W      &kp E     &kp R             &kp T                        &kp UNDER      &kp DOT     &kp COMMA  &kp M      &kp N         &kp B
+&kp TAB           &kp A     &kp S      &kp D     &kp F             &kp G                        &kp ENTER      &kp DELETE  &kp L      &kp K      &kp J         &kp H
+&kp LSHFT         &kp Z     &kp X      &kp C     &kp V             &kp LANG_ZENKAKUHANKAKU      &kp BACKSPACE  &kp P       &kp O      &kp I      &kp U         &kp Y
+&kp LEFT_CONTROL  &kp LGUI  &kp LALT             &kp INT_MUHENKAN  &kp SPACE                    &mkp MB2       &mkp MB1               &kp MINUS  &kp QUESTION  &kp EXCLAMATION
+&kp LEFT          &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                                                     &kp HOME    &kp PG_UP  &kp ENTER  &kp PG_DN     &kp END
+                                       &kp A                                                                               &kp B
             >;
 
             sensor-bindings =
-                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
+                <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>,
                 <&inc_dec_kp PG_UP PG_DN>;
         };
 
